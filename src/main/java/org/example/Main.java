@@ -17,9 +17,9 @@ public class Main {
         Player player = new Player("Semih", 90, Weapon.SWORD);
         System.out.println(player.healthRemaining());
         player.loseHealth(30);
-        System.out.println(player.toString());
+
         System.out.println(player.healthRemaining());
-        player.restoreHealth(20);
+        player.restoreHealth(35);
         System.out.println(player.healthRemaining());
     }
 
